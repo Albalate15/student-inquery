@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Inquiry</title>
+</head>
+<body>
+    <div class="inquiry-container">
+        <h1>Student Inquiry Form</h1>
+        <form id="inquiry-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="course">Course of Interest:</label>
+            <input type="text" id="course" name="course" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
